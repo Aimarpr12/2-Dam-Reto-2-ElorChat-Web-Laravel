@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "createdAt": null,
+        "updatedAt": null,
+        "listMessages": [
+            {
+                "id": 1,
+                "dataType": "TEXT",
+                "content": null,
+                "createdAt": "2024-01-18T17:59:29.000+00:00",
+                "userId": {
+                    "id": 1,
+                    "email": "Gabriel.VicenteAl@elorrieta-errekamari.com",
+                    "name": "Gabriel",
+                    "surname1": "Vicente",
+                    "surname2": "Alcala",
+                    "phoneNumber1": 277797267,
+                    "enabled": true,
+                    "accountNonLocked": true,
+                    "accountNonExpired": true,
+                    "credentialsNonExpired": true,
+                    "username": "Gabriel.VicenteAl@elorrieta-errekamari.com"
+                }
+            },
+            {
+                "id": 2,
+                "dataType": "TEXT",
+                "content": null,
+                "createdAt": "2024-01-18T17:59:29.000+00:00",
+                "userId": {
+                    "id": 2,
+                    "email": "Ainhoa.GuardadoCa@elorrieta-errekamari.com",
+                    "name": "Ainhoa",
+                    "surname1": "Guardado",
+                    "surname2": "Carrion",
+                    "phoneNumber1": 710114123,
+                    "enabled": true,
+                    "accountNonLocked": true,
+                    "accountNonExpired": true,
+                    "credentialsNonExpired": true,
+                    "username": "Ainhoa.GuardadoCa@elorrieta-errekamari.com"
+                }
+            }
+        ],
+        "listUsers": [
+            {
+                "id": {
+                    "chatId": 1,
+                    "userId": 0
+                },
+                "user": {
+                    "id": 0,
+                    "name": "Admin",
+                    "email": "admin@elorrieta-errekamari.com"
+                },
+                "admin": true
+            },
+            {
+                "id": {
+                    "chatId": 1,
+                    "userId": 1
+                },
+                "user": {
+                    "id": 1,
+                    "name": "Gabriel",
+                    "email": "Gabriel.VicenteAl@elorrieta-errekamari.com"
+                },
+                "admin": true
+            },
+            {
+                "id": {
+                    "chatId": 1,
+                    "userId": 2
+                },
+                "user": {
+                    "id": 2,
+                    "name": "Ainhoa",
+                    "email": "Ainhoa.GuardadoCa@elorrieta-errekamari.com"
+                },
+                "admin": true
+            }
+        ],
+        "public": true
+    },
+    {
+        "id": 3,
+        "name": "Admin",
+        "createdAt": null,
+        "updatedAt": null,
+        "listMessages": [],
+        "listUsers": [
+            {
+                "id": {
+                    "chatId": 3,
+                    "userId": 0
+                },
+                "user": {
+                    "id": 0,
+                    "name": "Admin",
+                    "email": "admin@elorrieta-errekamari.com"
+                },
+                "admin": true
+            }
+        ],
+        "public": false
+    },
+    {
+        "id": 33,
+        "name": "Nombre del Chat",
+        "createdAt": null,
+        "updatedAt": null,
+        "listMessages": [],
+        "listUsers": [
+            {
+                "id": {
+                    "chatId": 33,
+                    "userId": 0
+                },
+                "user": {
+                    "id": 0,
+                    "name": "Admin",
+                    "email": "admin@elorrieta-errekamari.com"
+                },
+                "admin": true
+            }
+        ],
+        "public": true
+    },
+    {
+        "id": 34,
+        "name": "Chat Admin",
+        "createdAt": null,
+        "updatedAt": null,
+        "listMessages": [],
+        "listUsers": [
+            {
+                "id": {
+                    "chatId": 34,
+                    "userId": 0
+                },
+                "user": {
+                    "id": 0,
+                    "name": "Admin",
+                    "email": "admin@elorrieta-errekamari.com"
+                },
+                "admin": true
+            },
+            {
+                "id": {
+                    "chatId": 34,
+                    "userId": 1
+                },
+                "user": {
+                    "id": 1,
+                    "name": "Gabriel",
+                    "email": "Gabriel.VicenteAl@elorrieta-errekamari.com"
+                },
+                "admin": true
+            },
+            {
+                "id": {
+                    "chatId": 34,
+                    "userId": 2
+                },
+                "user": {
+                    "id": 2,
+                    "name": "Ainhoa",
+                    "email": "Ainhoa.GuardadoCa@elorrieta-errekamari.com"
+                },
+                "admin": false
+            },
+            {
+                "id": {
+                    "chatId": 34,
+                    "userId": 3
+                },
+                "user": {
+                    "id": 3,
+                    "name": "Olivia",
+                    "email": "Olivia.FontSa@elorrieta-errekamari.com"
+                },
+                "admin": false
+            }
+        ],
+        "public": true
+    }
+]
